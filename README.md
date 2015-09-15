@@ -7,8 +7,9 @@
 A portfolio site for all DWA15 Fall 2015 projects.
 
 ## Demo
-N/A for this project
+No demo needed for this project
 
 ## Details for teaching team
 
 ## Outside code
+* CSS Tools | Reset CSS: http://meyerweb.com/eric/tools/css/reset/
