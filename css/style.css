@@ -124,17 +124,26 @@ img {
   }
 }
 
-@media screen and (min-width: 600px) and (max-width: 1000px) {
+@media screen and (min-width: 700px) and (max-width: 1000px) {
   .container {
     width: 80%;
   }
+  .button_live {
+    width: 100px;
+  }
+  .button_git {
+    width: 100px;
+  }
 }
 
-@media screen and (min-width: 280px) and (max-width: 600px) {
+@media screen and (min-width: 280px) and (max-width: 700px) {
   .container {
     width: 90%;
   }
   .project {
     float: none;
+  }
+  h1 {
+    font-size: 50px;
   }
 }
