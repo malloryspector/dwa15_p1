@@ -59,13 +59,9 @@ a {
 }
 
 #project_links {
-  background-color: #eee;
+  background-color: rgb(232,235,243);
   padding-bottom: 20px;
   height: 100%;
-}
-
-.clear {
-  clear: both;
 }
 
 .divider {
@@ -89,13 +85,13 @@ a {
 }
 
 .button_git {
-  border: 2px solid rgb(228,129,215);
+  border: 2px solid rgb(38,158,233);
   padding: 10px;
   width: 80px;
   margin: 0 auto;
   font-size: 14px;
   font-weight: bold;
-  color: rgb(228,129,215);
+  color: rgb(38,158,233);
   border-radius: 2px;
 }
 
@@ -116,7 +112,29 @@ img {
 #footer {
   background-color: rgb(36,36,36);
   color: #989898;
-  text-align: center;
   margin-top: 30px;
-  padding: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* Media Queries Start here */
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  .container {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 280px) and (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+  .project {
+    float: none;
+  }
 }
