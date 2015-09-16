@@ -3,7 +3,7 @@
 body {
   background-color: #eeeeee;
   font-family: 'Raleway', sans-serif;
-  color: #444;
+  color: rgb(36,36,36);
   text-align: left;
 }
 
@@ -14,7 +14,7 @@ p {
 
 h1 {
   font-size: 40px;
-  color: #0ac2d2;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
@@ -32,12 +32,11 @@ h3 {
 }
 
 #header {
-  background-color: #ffffff;
+  background-color: rgb(36,36,36);
+  color: #989898;
   height: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
-  text-align: center;
-  box-shadow: 0 2px 2px -2px;
 }
 
 .container {
@@ -52,19 +51,31 @@ h3 {
   overflow: auto;
   float: left;
   margin: 0 auto;
+  text-align: center;
 }
 
 .clear {
   clear: both;
 }
 
-.image100 {
-  width: 100%;
+.divider {
+  border-bottom: 1px solid #989898;
+  padding-top: 20px;
+}
+
+.image {
+  margin-top: 40px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 #footer {
-  background-color: #ffffff;
-  color: #444;
+  background-color: rgb(36,36,36);
+  color: #989898;
   text-align: center;
   margin-top: 30px;
+  padding: 20px;
 }
